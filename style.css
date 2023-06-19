@@ -3,16 +3,15 @@
 }
 */
 ul {
-  display: inline;
   list-style-type: none;
-  margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #7D6E83;
 }
 
 li {
-  float: left;
+  display: inline;
+  margin: 0;
 }
 
 li a {
@@ -23,9 +22,6 @@ li a {
   text-decoration: none;
   border-radius: 15px;
   border: 2px solid #5C2E7E;
-  /*padding: 20px;
-  width: 200px;
-  height: 150px;*/
 }
 
 .active {
